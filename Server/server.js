@@ -76,7 +76,7 @@ app.post('/register',async(req,res)=>{
         const newUser=new RegisteredUser(submitData);
         await newUser.save(submitData);
 
-        console.log()
+        // console.log()
         res.status(200).json("Registration Successfull")
     }
     catch(error){
