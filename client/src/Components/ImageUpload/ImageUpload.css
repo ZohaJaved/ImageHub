@@ -1,0 +1,59 @@
+/* UploadImage.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.imagePreview {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+    background: darkgray; /* Change to your desired hover color */
+}
